@@ -1,4 +1,4 @@
-**Xing Hu **
+**Xing Hu**
 
 Email: xinghu@ucsb.edu 
 
@@ -6,7 +6,7 @@ Email: xinghu@ucsb.edu
 
 ## Education
 
-**Ph.D. **	State Key Lab of Computer Architecture. Institute of Computing Technology (ICT), University of Chinese Academy of Sciences (UCAS)  	2009.09 - 2014.07 
+**Ph.D.**	State Key Lab of Computer Architecture. Institute of Computing Technology (ICT), University of Chinese Academy of Sciences (UCAS)  	2009.09 - 2014.07 
 
 **B.S.**  	Computing Science and technology Department. HuaZhong University of Science & Technology (HUST)  	2005.09 - 2009. 07 
 
@@ -34,9 +34,7 @@ My current interests include: intelligent memory systems, domain-specific accele
 
 - Xing Hu, Dylan Stow, Yuan Xie, Die stack is happening, in IEEE Micro 2018. 
 
-- Guoqing Chen, Yi Xu, Xing Hu, Xiangyang Guo, Jun Ma, Yu Hu, Yuan Xie, TSocket: Thermal-sustainable 
-
-  power budgeting, in ACM Transaction on Design Automation Electrical Systems, 21(2):29, 2016. 
+- Guoqing Chen, Yi Xu, Xing Hu, Xiangyang Guo, Jun Ma, Yu Hu, Yuan Xie, TSocket: Thermal-sustainable power budgeting, in ACM Transaction on Design Automation Electrical Systems, 21(2):29, 2016. 
 
 - Xing Hu, Yi Xu, Jun Ma, Guoqing Chen, Yu Hu, and Yuan Xie, Tsocket: Thermal-sustainable power budgeting for dynamic threading, in Design Automation Conference (DAC), pp.181-187, 2014. 
 
@@ -48,11 +46,11 @@ My current interests include: intelligent memory systems, domain-specific accele
 
 - Songjun Pan, Yu Hu, Xing Hu, and Xiaowei Li, A cost-effective substantial-impact-filter based method to tolerate voltage emergencies, in proceedings of Conference on Design, Automation and Test in Europe (DATE), pp. 311-316, 2011. 
 
--  Xing Hu, Songjun Pan, Yu Hu, and Xiaowei Li, Mitigating voltage emergency in simultaneous multithreading processorbymemorylevelparallelismawarethreadscheduling, ChineseJournalofComputers,36(5):1065- 1075, 2013. (in Chinese). 
+- Xing Hu, Songjun Pan, Yu Hu, and Xiaowei Li, Mitigating voltage emergency in simultaneous multithreading processor by memory level parallelism aware thread scheduling, Chinese Journal of Computers,36(5):1065- 1075, 2013. (in Chinese). 
 
--  RuiHe,QiaoshaZou,XingHu,ShihaiXiao,FuwenZhang,PengLin,WeiYang,JunfengZhao,ChuliangWeng, Zhulin Wei, Yuan Xie. A-Swap: an adaptive hybrid DRAM/ NVM memory architecture in big data application era. Non-volatile Memory Workshop, 2015. 
+- RuiHe,QiaoshaZou,XingHu,ShihaiXiao,FuwenZhang,PengLin,WeiYang,JunfengZhao,ChuliangWeng, Zhulin Wei, Yuan Xie. A-Swap: an adaptive hybrid DRAM/ NVM memory architecture in big data application era. Non-volatile Memory Workshop, 2015. 
 
-- XingHu,JijunYu,XiaolingNing,YuLiu,QuantumIdentityAuthenticationUsingThree-ParticleWstate, based on W state. Acta Optica Sinica, 29(6): 1680-1683, 2009. (in Chinese). 
+- XingHu,JijunYu,XiaolingNing,YuLiu,Quantum Identity Authentication Using Three-Particle W state, based on W state. Acta Optica Sinica, 29(6): 1680-1683, 2009. (in Chinese). 
 
 ## Patents
 
