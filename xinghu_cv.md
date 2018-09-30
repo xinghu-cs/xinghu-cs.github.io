@@ -1,4 +1,4 @@
-**Xing Hu**
+**Xing Hu (胡杏)**
 
 Email: xinghu@ucsb.edu 
 
