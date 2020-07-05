@@ -12,15 +12,16 @@ Email: xinghu@ucsb.edu
 
 ## Professional Experience
 
-**Postdoc**				Department of Electrical and Computer Engineering, University of California, Santa Barbara		2017.01 –– Present
+**Associate Professor** Chinese Academy of Sciences, Institute of Computing Technology (ICT)  2020.04 -- present
+
+**Postdoc**				Department of Electrical and Computer Engineering, University of California, Santa Barbara		2017.01 –– 2020.03
 
 **Research Scientist** 	Shannon Cognitive Lab, HUAWEI Technologies	2014. 07 –– 2016.12
 
-**Intern** 				AMD Research, Beijing, AMD Corporation 		2013.04 –– 2013.12
 
 ## Research Interests
 
-My current interests include: intelligent memory systems, domain-specific accelerations, and machine learning security. Previously, I worked on reliability, power and thermal management in Multi-core processors and 3D stacked chips, persistent memory systems, and contributed to non-volatile memory protocol standards.
+My current interests include: intelligent memory systems, domain-specific architecture, and machine learning security. Previously, I worked on reliability, power and thermal management in Multi-core processors and 3D stacked chips, persistent memory systems, and contributed to non-volatile memory protocol standards.
 
 ## Publications
 
