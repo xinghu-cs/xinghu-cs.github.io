@@ -70,10 +70,9 @@ My current interests include:  domain-specific architectures and machine learnin
 ## Additional Professional Service
 
 * HPCA17 Submission Chair 
+* DAC20 Session Co-chair
+* ICCAD20 TPC
 
 ## Reviewer for Journals 
 
-* IEEE Transactions on Computers, since 2016
-* IEEE Transactions on Very Large Integrated Systems, since 2014
-* Journal of Computer Science and Technology, since 2017
-* IEEE Embedded Systems Letter, since 2017 
+TC, TCAD, TVLSI, TACO
