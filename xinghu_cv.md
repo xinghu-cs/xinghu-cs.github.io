@@ -75,4 +75,4 @@ My current interests include:  domain-specific architectures and machine learnin
 
 ## Reviewer for Journals 
 
-TC, TCAD, TVLSI, TACO
+TC, TCAD, TVLSI, TACO, etc.
