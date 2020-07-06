@@ -21,25 +21,24 @@ Email: huxing@ict.ac.cn
 
 ## Research Interests
 
- My research focuses on efficiency and security of domain specific architectures. Specifically, my current interests include: technique-driven and application-driven architecture design, intelligent memory systems, and machine learning system security.
+ My research focuses on efficiency and security of domain specific architectures. Specifically, my current interests include: technique-driven and application-driven architectures, intelligent memory systems, and machine learning system security.
 
 ## Publications
+
 * **Xing Hu**, Ling Liang, Lei Deng, Shuangchen Li, Pengfei Zuo, Xinfeng Xie, Yu Ji, Yufei Ding, Timothy Sherwood, Yuan Xie, DeepSniffer, an Neural Network Model Extraction Framework by Learning Architecture Hints, to appear in ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2020. 
-* **Xing Hu**, Matheus Ogleari, Jishen Zhao, Shuangchen Li, Abanti Basak, Yuan Xie, Persistence parallelism optimization: a holistic approach from memory bus to RDMA network, in IEEE/ACM International Symposium on Microarchitecture (MICRO), pp 494-506, 2018.
-* **Xing Hu**, Yi Xu, Jun Ma, Guoqing Chen, Yu Hu, and Yuan Xie, Tsocket: Thermal-sustainable power budgeting for dynamic threading, in Design Automation Conference (DAC), pp.181-187, 2014.
-* **Xing Hu**, Dylan Stow, Yuan Xie, Die stack is happening, in IEEE Micro, pp. 22-28, 2018.
-* Lei Deng, Yujie Wu, **Xing Hu**, Ling Liang, Yufei Ding, Guoqi Li, Guangshe Zhao, Peng Li, Yuan Xie. Rethinking the Performance Comparison between SNNs and ANNs, in Neural Networks 2019.
-* Wenqing Huangfu, Shuangchen Li, **Xing Hu**, Yuan Xie, RADAR: a 3D-reRAM based DNA alignment accelerator architecture, in Design Automation Conference (DAC), pp. 59-64, 2018. 
-* Minyu Yan, **Xing Hu**, Shuangchen Li, Abanti Basak, Han Li, Xin Ma, Itir Akgun, Yujing Feng, Peng Gu, Lei Deng, Xiaochun Ye, Zhimin Zhang, Dongrui Fan, Yuan Xie, Alleviating Irregularity in Graph Analytics Acceleration: a Hardware/Software Co-Design Approach, in IEEE/ACM International Symposium on Microarchitecture (MICRO), 2019.
 * Mingyu Yan, Lei Deng, **Xing Hu**, Ling Liang, Yujing Feng, Xiaochun Ye, Zhiming Zhang, Dongrui Fan, Yuan Xie, HyGCN: A GCN Accelerator with Hybrid Architecture, in High Performance Computer Architecture (HPCA), 2020. 
+* Minyu Yan, **Xing Hu**, Shuangchen Li, Abanti Basak, Han Li, Xin Ma, Itir Akgun, Yujing Feng, Peng Gu, Lei Deng, Xiaochun Ye, Zhimin Zhang, Dongrui Fan, Yuan Xie, Alleviating Irregularity in Graph Analytics Acceleration: a Hardware/Software Co-Design Approach, in IEEE/ACM International Symposium on Microarchitecture (MICRO), 2019.
 * **Xing Hu**, Yang Zhao, Lei Deng, Ling Liang, Pengfei Zuo, Yingyan Lin, Yuan Xie, Hardware Trojaning in Neural Network Accelerator, to appear in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD). 
+* Lei Deng, Yujie Wu, **Xing Hu**, Ling Liang, Yufei Ding, Guoqi Li, Guangshe Zhao, Peng Li, Yuan Xie. Rethinking the Performance Comparison between SNNs and ANNs, in Neural Networks 2019.
+* **Xing Hu**, Matheus Ogleari, Jishen Zhao, Shuangchen Li, Abanti Basak, Yuan Xie, Persistence parallelism optimization: a holistic approach from memory bus to RDMA network, in IEEE/ACM International Symposium on Microarchitecture (MICRO), pp 494-506, 2018.
+* **Xing Hu**, Dylan Stow, Yuan Xie, Die stack is happening, in IEEE Micro, pp. 22-28, 2018.
+* Wenqing Huangfu, Shuangchen Li, **Xing Hu**, Yuan Xie, RADAR: a 3D-reRAM based DNA alignment accelerator architecture, in Design Automation Conference (DAC), pp. 59-64, 2018. 
 * Yang Zhao, **Xing Hu**, Shuangchen Li, Jing Ye, Lei Deng, Yu Ji, Jianyu Xu, Dong Wu, and Yuan Xie. Memory Trojan Attacks on Neural Network Accelerators, in Design Automation and Test in Europe (DATE), pp. 1402-1407, 2019.
 * Xinfeng Xie, **Xing Hu**, Peng Gu, Shuangchen Li, Yu Ji, Yuan Xie, NNBench-X: Benchmarking and Understanding Neural Network Workloads for Accelerator Designs, to appear in Computer Architecture Letter (CAL), pp. 38-42, 2019. 
 * Mingyu Yan, **Xing Hu**, Shuangchen Li, Itir Akgun, Han Li, Xin Ma, Lei Deng, Xiaochun Ye, Zhimin Zhang, Dongrui Fan, and Yuan Xie, Balancing Memory Accesses for Energy-Efficient Graph Analytics Accelerators, to appear in ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED), 2019.
 * Shuangchen Li, Alvin Oliver Glova, **Xing Hu**, Peng Gu, Dimin Niu, Krishna T. Malladi, Hongzhong Zheng, Yuan Xie, SCOPE: a stochastic computing engine for DRAM-based in-situ accelerator, in IEEE/ACM International Symposium on Microarchitecture (MICRO), pp. 696-709, 2018. 
 * Wenqin Huangfu, Xueqi Li, Shuangchen Li, **Xing Hu**, Peng Gu, Yuan Xie, MEDAL: Scalable DIMM based Near Data Processing Accelerator for DNA Seeding Algorithm, accepted in IEEE/ACM International Symposium on Microarchitecture, 2019. 
 * Abanti Basak, **Xing Hu**, Shuangchen Li, Sang Min Oh, Yuan Xie, exploring core and cache hierarchy bottlenecks in graph processing workloads, in Computer Architecture Letter (CAL), pp. 197-200, 2018. 
-* **Xing Hu**, Ling Liang, Lei Deng, Shuangchen Li, Xinfeng Xie, Yu Ji, Yufei Ding, Timothy Sherwood, Yuan Xie, Neural Network Model Extraction Attack by Hearing Architecture Hints, in arxiv 2019.
 * Abanti Basak, Shuangchen Li, **Xing Hu**, Sang Min Oh, Yuan Xie, Analysis and Optimization of the Memory Hierarchy for Graph Processing Workloads, in High Performance Computer Architecture (HPCA), pp 373-386, 2019. 
 * Liu Liu, Lei Deng, Xing Hu, Maohua Zhu, Guoqi Li, Yufei Ding, Yuan Xie, Dynamic Sparse Graph for Efficient Deep Learning, in International Conference on Learning Representations (ICLR), 2019.  
 * Lin Ning, Hang Lu, **Xing Hu**, Xiaowei Li, When Deep Learning Meets the Edge: AutoMasking Deep Neural Networks for Efficient Machine Learning on Edge Devices, to appear in IEEE International Conference on Computer Design (ICCD), 2019.
@@ -50,16 +49,11 @@ Email: huxing@ict.ac.cn
 * Lei Deng, Ling Liang, G. Wang, Liang Chang, **Xing Hu**, Xin Ma, Liu Liu, Jing Pei, Guoqi Li, and Y. Xie, “SemiMap: A semi-folded convolution mapping for speed-overhead balance on crossbars,” in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2018. 
 * Lei Deng, Zhe Zou, Xin Ma, Ling Liang, Guanrui Wang, **Xing Hu**, Liu Liu, Jing Pei, Guoqi Li, Yuan Xie, Fast Object Tracking on a Many-core Neural Network Chip, in Frontiers in Neuroscience, section Neuromorphic Engineering, 2018. 
 * Guoqing Chen, Yi Xu, **Xing Hu**, Xiangyang Guo, Jun Ma, Yu Hu, Yuan Xie, TSocket: Thermal-sustainable power budgeting, in ACM Transaction on Design Automation Electrical Systems, 21(2):29, 2016. 
+* **Xing Hu**, Yi Xu, Jun Ma, Guoqing Chen, Yu Hu, and Yuan Xie, Tsocket: Thermal-sustainable power budgeting for dynamic threading, in Design Automation Conference (DAC), pp.181-187, 2014.
 * **Xing Hu**, Guihai Yan, Yu Hu, and Xiaowei Li, Orchestrator: guarding against voltage emergencies in multi-threaded applications, in IEEE Transactions on VLSI systems, 22(12):2476-2487, 2014. 
 * **Xing Hu**, Yi Xu, Yu Hu, and Yuan Xie, Swimming Lane: a composite design to mitigate voltage droop effects in 3D chips, in Asia and South Pacific Design Automation Conference (ASPDAC), pp. 550-555, 2014. 
 * **Xing Hu**, Guihai Yan, Yu Hu, and Xiaowei Li, Orchestrator: a low-cost solution to reduce voltage emergencies for multi-threaded applications, in proceedings of Conference on Design, Automation and Test in Europe (DATE), pp. 208-213, 2013. 
 * Songjun Pan, Yu Hu, **Xing Hu**, and Xiaowei Li, A cost-effective substantial-impact-filter based method to tolerate voltage emergencies, in proceedings of Conference on Design, Automation and Test in Europe (DATE), pp. 311-316, 2011.  
- 
-
-## Patents
-
-* Data transmission method and apparatus, Xing Hu, Yu Hu, Xiaowei Li, WO2015058696. 
-* Voltage droop mitigation in 3D chip system, Yi Xu, Xing Hu, Yuan Xie, US 9595508 
 
 ## Awards
 
