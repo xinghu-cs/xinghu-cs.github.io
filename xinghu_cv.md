@@ -21,7 +21,7 @@ Email: huxing@ict.ac.cn
 
 ## Research Interests
 
-My current interests include:  domain-specific architectures and machine learning security. Specifically, I am working on technique-driven and application-driven worked on reliability, power and thermal management in Multi-core processors and 3D stacked chips, persistent memory systems, and contributed to non-volatile memory protocol standards.
+ My research focuses on efficiency and security of domain specific architectures. Specifically, my current interests include: technique-driven and application-driven architecture design, intelligent memory systems, and machine learning system security.
 
 ## Publications
 * **Xing Hu**, Ling Liang, Lei Deng, Shuangchen Li, Pengfei Zuo, Xinfeng Xie, Yu Ji, Yufei Ding, Timothy Sherwood, Yuan Xie, DeepSniffer, an Neural Network Model Extraction Framework by Learning Architecture Hints, to appear in ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2020. 
