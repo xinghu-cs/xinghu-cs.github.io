@@ -1,23 +1,22 @@
+<img title="" src="avatar.jpeg" alt="avatar" width="109" data-align="inline">
+
 **Xing Hu (胡杏)**
 
 Email: huxing@ict.ac.cn 
 
-
-
 ## Education
 
-**Ph.D.**	State Key Lab of Computer Architecture. Institute of Computing Technology (ICT), University of Chinese Academy of Sciences (UCAS)  	2009.09 - 2014.07 
+**Ph.D.**    State Key Lab of Computer Architecture. Institute of Computing Technology (ICT), University of Chinese Academy of Sciences (UCAS)      2009.09 - 2014.07 
 
-**B.S.**  	Computing Science and technology Department. HuaZhong University of Science & Technology (HUST)  	2005.09 - 2009. 07 
+**B.S.**      Computing Science and technology Department. HuaZhong University of Science & Technology (HUST)      2005.09 - 2009. 07 
 
 ## Professional Experience
 
 **Associate Professor** Chinese Academy of Sciences, Institute of Computing Technology (ICT)  2020.04 -- present
 
-**Postdoc**				Department of Electrical and Computer Engineering, University of California, Santa Barbara		2017.01 –– 2020.03
+**Postdoc**                Department of Electrical and Computer Engineering, University of California, Santa Barbara        2017.01 –– 2020.03
 
-**Research Scientist** 	Shannon Cognitive Lab, HUAWEI Technologies	2014. 07 –– 2016.12
-
+**Research Scientist**     Shannon Cognitive Lab, HUAWEI Technologies    2014. 07 –– 2016.12
 
 ## Research Interests
 
@@ -67,6 +66,6 @@ Email: huxing@ict.ac.cn
 * DAC20 Session Co-chair
 * ICCAD20 TPC
 
-## Reviewer for Journals 
+## Reviewer for Journals
 
 TC, TCAD, TVLSI, TACO, etc.
