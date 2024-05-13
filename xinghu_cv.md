@@ -12,9 +12,9 @@ Email: huxing@ict.ac.cn
 
 ## Professional Experience
 
-**Professor** Chinese Academy of Sciences, Institute of Computing Technology (ICT)  2023.09 -- Present 
+**Professor** Chinese Academy of Sciences, Institute of Computing Technology (ICT)  2023.09 –– Present 
 
-**Associate Professor** Chinese Academy of Sciences, Institute of Computing Technology (ICT)  2020.04 -- 2023.09
+**Associate Professor** Chinese Academy of Sciences, Institute of Computing Technology (ICT)  2020.04 –– 2023.09
 
 **Postdoc**                Department of Electrical and Computer Engineering, University of California, Santa Barbara        2017.01 –– 2020.03
 
