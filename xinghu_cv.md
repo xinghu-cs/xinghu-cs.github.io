@@ -96,13 +96,15 @@ We explore the new human-machine interaction manner that eliminates effortless p
 * Songjun Pan, Yu Hu, **Xing Hu**, and Xiaowei Li, A cost-effective substantial-impact-filter based method to tolerate voltage emergencies, in proceedings of Conference on Design, Automation and Test in Europe (DATE), pp. 311-316, 2011.  
 
 ## Awards
-
+* 2020 - Talent 
 * 2016 - Huawei President Special Group Award
 * 2014 - The Dean's Special Award of Chinese Academy of Sciences (TOP 1%) 
 * 2013 - Director of Special Scholarship in ICT, CAS (TOP 1%); 
 
 ## Additional Professional Service
-
+* ISCA23, ISCA24 ERC
+* ICCAD20, ICCAD21, ICCAD22, ICCAD23 TPC
+* MICRO20 TPC
 * HPCA17 Submission Chair 
 * DAC20 Session Co-chair
 * ICCAD20 TPC
