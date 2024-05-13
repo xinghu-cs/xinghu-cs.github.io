@@ -35,7 +35,7 @@ We explore the new human-machine interaction manner that eliminates effortless p
 
 
 ## Publications
-* Jianan Mu, Husheng Han, Shangyi Shi, Jing Ye, Zizhen Liu,Shengwen Liang, Meng Li, Mingzhe Zhang, Song Bian, **Xing Hu#**, Huawei Li, Xiaowei Li, Alchemist: A Unified Accelerator Architecture for Cross-Scheme Fully Homomorphic Encryption, in Design Automation Conference (DAC) 2024.
+* Jianan Mu, Husheng Han, Shangyi Shi, Jing Ye, Zizhen Liu,Shengwen Liang, Meng Li, Mingzhe Zhang, Song Bian, Xing Hu#, Huawei Li, Xiaowei Li, Alchemist: A Unified Accelerator Architecture for Cross-Scheme Fully Homomorphic Encryption, in Design Automation Conference (DAC) 2024.
 * Husheng Han, Xing Hu#, Yifan Hao, Kaidi Xu, Pucheng Dang, Ying Wang, Yongwei Zhao, Zidong Du, Qi Guo, Yanzhi Wang, Xishan Zhang, Tianshi Chen, Real-Time Robust Video Object Detection System Against Physical-World Adversarial Attacks, TCAD2024.
 * W. Kong, Y. Hao, Y. Zhao, X. Song, X. Li, M. Zou, R. Zhang, C. Liu, Y. Wen, P. Jin, X. Hu, W. Li, Z. Du, Q. Guo, Z. Xu, T. Chen, DiffBoost: Full-Network Differential Acceleration for Diffusion Models, ISCA2024.
 * Shuyao Cheng, Pengwei Jin, Qi Guo, Zidong Du, Rui Zhang, Xing Hu, Yongwei Zhao, Yifan Hao, Guan Xiangtao, Husheng Han, Zhengyue Zhao, Ximing Liu, Xishan Zhang, yuejie Chu, Mao Long, Tianshi Chen, Yunji Chen. Automated CPU Design by Learning from Input-Output Examples, IJCAI2024.
