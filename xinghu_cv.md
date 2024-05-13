@@ -20,6 +20,7 @@ Email: huxing@ict.ac.cn
 
 **Research Scientist**     Shannon Cognitive Lab, HUAWEI Technologies    2014. 07 –– 2016.12
 
+
 ## Research
 Over the past half-century, computing systems have undergone a steady and progressive evolution, establishing themselves as the fundamental infrastructure supporting humanity in problem-solving. Nowadays, propelled by advancements in Artificial Intelligence (AI) techniques, the essence of computing has been broadened. Thus, our ultimate goal is to establish intelligent automated machines to achieve better computational efficiency, more powerful computational capabilities, and more natural interaction. Our research interests include:
 
@@ -34,11 +35,40 @@ We explore the new human-machine interaction manner that eliminates effortless p
 
 
 ## Publications
-
-* **Xing Hu**, Ling Liang, Lei Deng, Shuangchen Li, Pengfei Zuo, Xinfeng Xie, Yu Ji, Yufei Ding, Timothy Sherwood, Yuan Xie, DeepSniffer, an Neural Network Model Extraction Framework by Learning Architecture Hints, to appear in ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2020. 
-* Mingyu Yan, Lei Deng, **Xing Hu**, Ling Liang, Yujing Feng, Xiaochun Ye, Zhiming Zhang, Dongrui Fan, Yuan Xie, HyGCN: A GCN Accelerator with Hybrid Architecture, in High Performance Computer Architecture (HPCA), 2020. 
+* Jianan Mu, Husheng Han, Shangyi Shi, Jing Ye, Zizhen Liu,Shengwen Liang, Meng Li, Mingzhe Zhang, Song Bian, **Xing Hu#**, Huawei Li, Xiaowei Li, Alchemist: A Unified Accelerator Architecture for Cross-Scheme Fully Homomorphic Encryption, in Design Automation Conference (DAC) 2024.
+Husheng Han, Xing Hu#, Yifan Hao, Kaidi Xu, Pucheng Dang, Ying Wang, Yongwei Zhao, Zidong Du, Qi Guo, Yanzhi Wang, Xishan Zhang, Tianshi Chen, Real-Time Robust Video Object Detection System Against Physical-World Adversarial Attacks, TCAD2024.
+W. Kong, Y. Hao, Y. Zhao, X. Song, X. Li, M. Zou, R. Zhang, C. Liu, Y. Wen, P. Jin, X. Hu, W. Li, Z. Du, Q. Guo, Z. Xu, T. Chen, DiffBoost: Full-Network Differential Acceleration for Diffusion Models, ISCA2024.
+Shuyao Cheng, Pengwei Jin, Qi Guo, Zidong Du, Rui Zhang, Xing Hu, Yongwei Zhao, Yifan Hao, Guan Xiangtao, Husheng Han, Zhengyue Zhao, Ximing Liu, Xishan Zhang, yuejie Chu, Mao Long, Tianshi Chen, Yunji Chen. Automated CPU Design by Learning from Input-Output Examples, IJCAI2024.
+Shuyao Cheng, Chongxiao Li, Zidong Du, Rui Zhang, Xing Hu, Xiaqing Li, Guanglin Xu, Yuanbo Wen, Qi Guo, Revisiting Automatic Pipelining: Gate-level Forwarding and Speculation, DAC2024.
+Zhengyue Zhao, Jinhao Duan, Kaidi Xu, Chenan Wang, Rui Zhang, Zidong Du, Qi Guo, Xing Hu#, Can Protective Perturbation Safeguard Personal Data from Being Exploited by Stable Diffusion? CVPR, 2024
+Xinkai Song, Yuanbo Wen, Xing Hu#, Tianbo Liu, Haoxuan Zhou, Husheng Han, Tian Zhi, Zidong Du, Wei Li, Rui Zhang, Chen Zhang, Lin Gao, Qi Guo, Tianshi Chen, Cambricon-R: A Fully Fused Accelerator for Real-Time Learning of Neural Scene Representation, MICRO 2023.
+Shaohui Peng, Xing Hu, Qi Yi, Rui Zhang, Jiaming Guo, Di Huang, Zikang Tian, Ruizhi Chen, Zidong Du, Qi Guo, Yunji Chen, Ling Li, Hypothesis, Verification, and Induction: Grounding Large Language Models with Self-Driven Skill Learning, AAAI 2023.
+Zikang Tian, Ruizhi Chen, Xing Hu, Ling Li, Rui Zhang, Fan Wu, Shaohui Peng, Jiaming Guo, Zidong Du, Qi Guo, Yunji Chen, Decompose a Task into Generalizable Subtasks in Multi-Agent Reinforcement Learning, NeurIPS 2023.
+Yunkai Gao, Rui Zhang, Jiaming Guo, Fan Wu, Qi Yi, Shaohui Peng, Siming Lan, Ruizhi Chen, Zidong Du, Xing Hu, Qi Guo, Ling Li, Yunji Chen, Context shift reduction for offline meta-reinforcement learning, NeurIPS 2023.
+Siming Lan, Rui Zhang, Qi Yi, Jiaming Guo, Shaohui Peng, Yunkai Gao, Fan Wu, Ruizhi Chen, Zidong Du, Xing Hu, Ling Li, Yunji Chen, Contrastive Modules with Temporal Attention for Multi-Task Reinforcement Learning, NeurIPS 2023.
+Di Huang, Ziyuan Nan, Xing Hu, Pengwei Jin, Shaohui Peng, Yuanbo Wen, Rui Zhang, Zidong Du, Qi Guo, Yewen Pu, Yunji Chen, ANPL: Compiling Natural Programs with Interactive Decomposition, NeurIPS 2023.
+Jiaming Guo, Rui Zhang, Shaohui Peng, Qi Yi, Xing Hu, Ruizhi Chen, Zidong Du, Ling Li, Qi Guo, Yunji Chen, Efficient Symbolic Policy Learning with Differentiable Symbolic Expression, NeurIPS2023.
+Qi Yi, Rui Zhang, Shaohui Peng, Jiaming Guo, Yunkai Gao, Kaizhao Yuan, Ruizhi Chen, Siming Lan, Xing Hu, Zidong Du, Xishan Zhang, Qi Guo, Yunji Chen, Online prototype alignment for few-shot policy transfer, ICML 2023.
+Pengwei Jin, Di Huang, Rui Zhang, Xing Hu, Ziyuan Nan, Zidong Du, Qi Guo, Yunji Chen, Online symbolic regression with informative query. AAAI 2022
+Shaohui Peng, Xing Hu, Rui Zhang, Jiaming Guo, Qi Yi, Ruizhi Chen, Zidong Du, Ling Li, Qi Guo, Yunji Chen, Conceptual reinforcement learning for language-conditioned tasks, AAAI 2023.
+Jun Bi, Qi Guo, Xiaqing Li, Yongwei Zhao, Yuanbo Wen, Yuxuan Guo, Enshuai Zhou, Xing Hu, Zidong Du, Ling Li, Huaping Chen, Tianshi Chen, Heron: Automatically constrained high-performance library generation for deep learning accelerators, ASPLOS 2022.
+Qi Yi, Rui Zhang, Shaohui Peng, Jiaming Guo, Xing Hu, Zidong Du, Qi Guo, Yunji Chen, Object-category aware reinforcement learning. NeurIPS2023.
+Shaohui Peng, Xing Hu, Rui Zhang, Ke Tang, Jiaming Guo, Qi Yi, Ruizhi Chen, Zidong Du, Ling Li, Qi Guo, Yunji Chen, Causality-driven hierarchical structure discovery for reinforcement learning, NeurIPS 2023.
+Cambricon-P: A bitflow architecture for arbitrary precision computing
+Yuanbo Wen, Qi Guo, Qiang Fu, Xiaqing Li, Jianxing Xu, Yanlin Tang, Yongwei Zhao, **Xing Hu**, Zidong Du, Ling Li, Chao Wang, Xuehai Zhou, Yunji Chen, Babeltower: Learning to auto-parallelized program translation, in International Conference on Machine Learning (ICML), 2022. 
+Ling Liang, Kaidi Xu, **Xing Hu**, Lei Deng, Yuan Xie, Toward robust spiking neural network against adversarial perturbation, in Advances in Neural Information Processing Systems (NeurIPS), 2022.
+Xing Hu, Ling Liang, Xiaobing Chen, Lei Deng, Yu Ji, Yufei Ding, Zidong Du, Qi Guo, Tim Sherwood, Yuan Xie, A Systematic View of Model Leakage Risks in Deep Neural Network Systems, in IEEE Transactions on Computers (TC), 2023. 
+Husheng Han, Kaidi Xu, **Xing Hu#**, Xiaobing Chen, Ling Liang, Zidong Du, Qi Guo, Yanzhi Wang, Yunji Chen, ScaleCert: Scalable Certified Defense against Adversarial Patches with Sparse Superficial Layers, in Advances in Neural Information Processing Systems (NeurIPS), 2021. 
+Xinkai Song, Tian Zhi, Zhe Fan, Zhenxing Zhang, Xi Zeng, Wei Li, **Xing Hu**, Zidong Du, Qi Guo, Yunji Chen, Cambricon-G: A Polyvalent Energy-Efficient Accelerator for Dynamic Graph Neural Networks, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2021. (CCF-A)
+Yongwei Zhao, Chang Liu, Zidong Du, Qi Guo, **Xing Hu**, Yimin Zhuang, Zhenxing Zhang, Xinkai Song, Wei Li, Xishan Zhang, Ling Li, Zhiwei Xu, Tianshi Chen, Cambricon-Q: a hybrid architecture for efficient training, in International Symposium on Computer Architecture (ISCA), 2021.
+Xinfeng Xie, Zheng Liang, Peng Gu, Abanti Basak, Lei Deng, Ling Liang, **Xing Hu**, Yuan Xie, Spacea: Sparse matrix vector multiplication on processing-in-memory accelerator, in IEEE International Symposium on High-Performance Computer Architecture (HPCA), 2021. 
+Yuanbo Wen, Qi Guo, Zidong Du, Jianxing Xu, Zhenxing Zhang, **Xing Hu**, Wei Li, Rui Zhang, Chao Wang, Zhou Xuehai, Tianshi Chen, Enabling One-size-fits-all Compilation Optimization across Machine Learning Computers for Inference, in IEEE Transactions on Computers (TC), 2021. 
+* Xiaobing Chen, Yuke Wang, Xinfeng Xie, **Xing Hu#**, Abanti Basak, Ling Liang, Mingyu Yan, Lei Deng, Yufei Ding, Zidong Du, Yuan Xie, Rubik: A hierarchical architecture for efficient graph neural network training, in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2021.
+* **Xing Hu**, Ling Liang, Lei Deng, Shuangchen Li, Pengfei Zuo, Xinfeng Xie, Yu Ji, Yufei Ding, Timothy Sherwood, Yuan Xie, DeepSniffer, an Neural Network Model Extraction Framework by Learning Architecture Hints, in ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2020. 
+* Mingyu Yan, Lei Deng, **Xing Hu**, Ling Liang, Yujing Feng, Xiaochun Ye, Zhiming Zhang, Dongrui Fan, Yuan Xie, HyGCN: A GCN Accelerator with Hybrid Architecture, in High Performance Computer Architecture (HPCA), 2020.
+* Jilan Lin, Cheng-Da Wen, **Xing Hu**, Tianqi Tang, Chao Lin, Yu Wang, Yuan Xie, Rescuing RRAM-Based Computing From Static and Dynamic Faults, in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2020.
+* **Xing Hu**, Yang Zhao, Lei Deng, Ling Liang, Pengfei Zuo, Yingyan Lin, Yuan Xie, Hardware Trojaning in Neural Network Accelerator, to appear in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2020. 
 * Minyu Yan, **Xing Hu**, Shuangchen Li, Abanti Basak, Han Li, Xin Ma, Itir Akgun, Yujing Feng, Peng Gu, Lei Deng, Xiaochun Ye, Zhimin Zhang, Dongrui Fan, Yuan Xie, Alleviating Irregularity in Graph Analytics Acceleration: a Hardware/Software Co-Design Approach, in IEEE/ACM International Symposium on Microarchitecture (MICRO), 2019.
-* **Xing Hu**, Yang Zhao, Lei Deng, Ling Liang, Pengfei Zuo, Yingyan Lin, Yuan Xie, Hardware Trojaning in Neural Network Accelerator, to appear in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD). 
 * Lei Deng, Yujie Wu, **Xing Hu**, Ling Liang, Yufei Ding, Guoqi Li, Guangshe Zhao, Peng Li, Yuan Xie. Rethinking the Performance Comparison between SNNs and ANNs, in Neural Networks 2019.
 * **Xing Hu**, Matheus Ogleari, Jishen Zhao, Shuangchen Li, Abanti Basak, Yuan Xie, Persistence parallelism optimization: a holistic approach from memory bus to RDMA network, in IEEE/ACM International Symposium on Microarchitecture (MICRO), pp 494-506, 2018.
 * **Xing Hu**, Dylan Stow, Yuan Xie, Die stack is happening, in IEEE Micro, pp. 22-28, 2018.
