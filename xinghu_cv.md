@@ -12,15 +12,26 @@ Email: huxing@ict.ac.cn
 
 ## Professional Experience
 
-**Associate Professor** Chinese Academy of Sciences, Institute of Computing Technology (ICT)  2020.04 -- present
+**Professor** Chinese Academy of Sciences, Institute of Computing Technology (ICT)  2023.09 -- Present 
+
+**Associate Professor** Chinese Academy of Sciences, Institute of Computing Technology (ICT)  2020.04 -- 2023.09
 
 **Postdoc**                Department of Electrical and Computer Engineering, University of California, Santa Barbara        2017.01 –– 2020.03
 
 **Research Scientist**     Shannon Cognitive Lab, HUAWEI Technologies    2014. 07 –– 2016.12
 
-## Research Interests
+## Research
+Over the past half-century, computing systems have undergone a steady and progressive evolution, establishing themselves as the fundamental infrastructure supporting humanity in problem-solving. Nowadays, propelled by advancements in Artificial Intelligence (AI) techniques, the essence of computing has been broadened. Thus, our ultimate goal is to establish intelligent automated machines to achieve better computational efficiency, more powerful computational capabilities, and more natural interaction. Our research interests include:
 
- My research focuses on efficiency and security of domain specific architectures. Specifically, my current interests include: technique-driven and application-driven architectures, intelligent memory systems, and machine learning system security.
+* Efficient and Safe Intelligent Computing Architectures
+We explore efficient and safe architectures for intelligent computing, such as visual understanding, visual modeling, reasoning, and planning, aiming to build the physical foundation of intelligent agents to perceive, understand, and solve complex problems.
+  
+* Interactive Intelligent Computing System Design
+We delve into the integration of AI capabilities to tackle critical and intricate challenges, particularly those involved in constructing computing systems. Designing computing systems poses unique challenges compared to traditional AI tasks, given the exceptional precision requirements (>99.99999999999%). These requirements far exceed the levels typically associated with prediction and generation tasks in the AI domain. Our objective is to explore system design methodologies that harness the outstanding prediction/exploration capabilities of AI techniques while ensuring the functionality and correctness of the system.
+
+* Instruction-following Human-machine Interaction
+We explore the new human-machine interaction manner that eliminates effortless programming. We explore the AI agent based on program synthesis and reinforcement learning to empower the human productivity, including the natural language programming frameworks and instruction-following embodied agents.
+
 
 ## Publications
 
