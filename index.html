@@ -1,384 +1,620 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <!-- TODO FIX THIS-->
-  <head>
-    <meta charset="utf-8" />
-    <meta name="Xing Hu" content="width=device-width, initial-scale=1" />
-    <title>Xing Hu</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
-    />
-  </head>
-  <body>
-    <section class="section">
-      <div class="container">
-          <div class="grid">
-            <div>
-              <h1 class="title">Hu Xing 胡杏</h1>
-              <p class="subtitle">
-                State Key Laboratory of Computer Architecture<br />
-                Institute of Computing Technology<br />
-                Chinese Academy of Sciences
-              </p>
-            </div>
-          <div>
-            <figure class="image is-128x128 is-pulled-right">
-              <img
-                src="https://bulma.io/assets/images/placeholders/128x128.png"
-              />
-            </figure>
-          </div>
-        </div>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
 
-      <hr />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left: 0.25em solid rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
 
-      <div class="container content">
-        <h3>About</h3>
-        <p>
-          Xing Hu, Professor, Institute of Computing, Chinese Academy of
-          Sciences. <br>
-          Her research interests focus on intelligent computing
-          systems, aiming to provide better computing efficiency, the higher
-          computing capability, with more human-friendly interaction.
-        </p>
-      </div>
-      <hr />
 
-      <div class="container content">
-        <h3>Research</h3>
-        <p>
-          Over the past half-century, computing systems have undergone a steady
-          and progressive evolution, establishing themselves as the fundamental
-          infrastructure supporting humanity in problem-solving. Nowadays,
-          propelled by advancements in Artificial Intelligence (AI) techniques,
-          the essence of computing has been broadened. Thus, our ultimate goal
-          is to establish intelligent automated machines to achieve better
-          computational efficiency, more powerful computational capabilities,
-          and more natural interaction. Our research
-          interests include:
-        </p>
-        <ul>
-          <li>
-            <strong
-              >Efficient and Safe Intelligent Computing Architectures</strong
-            >
-            <span class="tag is-info">Cambricon-R</span>
-            <span class="tag is-info">Cambricon-P</span>
-            <span class="tag is-info">Rubik</span>
-            <span class="tag is-info">Themis</span>
-            <span class="tag is-info">DeepSniffer</span>
-          </li>
-          <p>
-            We explore efficient and safe architectures for intelligent computing, such as visual understanding,
-            visual modeling, reasoning, and planning, aiming to build the physical
-            foundation of intelligent agents to perceive, understand, and
-            solve complex problems.
-          </p>
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
 
-          <li>
-            <strong>Interactive Intelligent Computing System Design</strong>
-            <span class="tag is-info">Qimeng</span>
-            <span class="tag is-info">Heron</span>
-          </li>
-          <p>
-            We delve into the integration of AI capabilities to tackle critical and intricate challenges, particularly those involved in constructing computing systems. Designing computing systems poses unique challenges compared to traditional AI tasks, given the exceptional precision requirements (>99.99999999999%). These requirements far exceed the levels typically associated with prediction and generation tasks in the AI domain. Our objective is to explore system design methodologies that harness the outstanding prediction/exploration capabilities of AI techniques while ensuring the functionality and correctness of the system.
-          </p>
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
-          <li>
-            <strong>Instruction-following Human-machine Interaction</strong>
-            <span class="tag is-info">ANPL</span>
-            <span class="tag is-info">CRL</span>
-            <span class="tag is-info">CDRL</span>
-            <span class="tag is-info">SR</span>
-          </li>
-          <p>
-            We explore the new human-machine interaction manner that eliminates
-            effortless programming. We explore the AI agent based on program
-            synthesis and reinforcement learning to empower the human
-            productivity, including the natural language programming frameworks
-            and instruction-following embodied agents.
-          </p>
-        </ul>
-      </div>
-      <hr />
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
 
-      <div class="container content">
-        <h3>Publications</h3>
-        <ol>
-          <li>
-            Jianan Mu, Husheng Han, Shangyi Shi1, Jing Ye, Zizhen Liu,Shengwen
-            Liang, Meng Li, Mingzhe Zhang, Song Bian, <strong>Xing Hu</strong>,
-            Huawei Li, Xiaowei Li1, Alchemist: A Unified Accelerator
-            Architecture for Cross-Scheme Fully Homomorphic Encryption, DAC
-            2024.
-          </li>
-          <li>
-            Husheng Han, <strong>Xing Hu</strong>#, Yifan Hao, Kaidi Xu, Pucheng
-            Dang, Ying Wang, Yongwei Zhao, Zidong Du, Qi Guo, Yanzhi Wang,
-            Xishan Zhang, Tianshi Chen, Real-Time Robust Video Object Detection
-            System Against Physical-World Adversarial Attacks, TCAD2024.
-          </li>
-          <li>
-            W. Kong, Y. Hao, Y. Zhao, X. Song, X. Li, M. Zou, R. Zhang, C. Liu,
-            Y. Wen, P. Jin, X. Hu, W. Li, Z. Du, Q. Guo, Z. Xu, T. Chen,
-            DiffBoost: Full-Network Differential Acceleration for Diffusion
-            Models, ISCA2024.
-          </li>
-          <li>
-            Shuyao Cheng, Pengwei Jin, Qi Guo, Zidong Du, Rui Zhang,
-            <strong>Xing Hu</strong>, Yongwei Zhao, Yifan Hao, Guan Xiangtao,
-            Husheng Han, Zhengyue Zhao, Ximing Liu, Xishan Zhang, yuejie Chu,
-            Mao Long, Tianshi Chen, Yunji Chen. Automated CPU Design by Learning
-            from Input-Output Examples, IJCAI2024.
-          </li>
-          <li>
-            Shuyao Cheng, Chongxiao Li, Zidong Du, Rui Zhang,
-            <strong>Xing Hu</strong>, Xiaqing Li, Guanglin Xu, Yuanbo Wen, Qi
-            Guo, Revisiting Automatic Pipelining: Gate-level Forwarding and
-            Speculation, DAC2024.
-          </li>
-          <li>
-            Zhengyue Zhao, Jinhao Duan, Kaidi Xu, Chenan Wang, Rui Zhang, Zidong
-            Du, Qi Guo, <strong>Xing Hu</strong>#, Can Protective Perturbation
-            Safeguard Personal Data from Being Exploited by Stable Diffusion?
-            CVPR, 2024
-          </li>
-          <li>
-            Xinkai Song, Yuanbo Wen, <strong>Xing Hu</strong>#, Tianbo Liu,
-            Haoxuan Zhou, Husheng Han, Tian Zhi, Zidong Du, Wei Li, Rui Zhang,
-            Chen Zhang, Lin Gao, Qi Guo, Tianshi Chen, Cambricon-R: A Fully
-            Fused Accelerator for Real-Time Learning of Neural Scene
-            Representation, MICRO 2023.
-          </li>
-          <li>
-            Shaohui Peng, <strong>Xing Hu</strong>, Qi Yi, Rui Zhang, Jiaming
-            Guo, Di Huang, Zikang Tian, Ruizhi Chen, Zidong Du, Qi Guo, Yunji
-            Chen, Ling Li, Hypothesis, Verification, and Induction: Grounding
-            Large Language Models with Self-Driven Skill Learning, AAAI 2023.
-          </li>
-          <li>
-            Zikang Tian, Ruizhi Chen, <strong>Xing Hu</strong>, Ling Li, Rui
-            Zhang, Fan Wu, Shaohui Peng, Jiaming Guo, Zidong Du, Qi Guo, Yunji
-            Chen, Decompose a Task into Generalizable Subtasks in Multi-Agent
-            Reinforcement Learning, NeurIPS 2023.
-          </li>
-          <li>
-            Yunkai Gao, Rui Zhang, Jiaming Guo, Fan Wu, Qi Yi, Shaohui Peng,
-            Siming Lan, Ruizhi Chen, Zidong Du, <strong>Xing Hu</strong>, Qi
-            Guo, Ling Li, Yunji Chen, Context shift reduction for offline
-            meta-reinforcement learning, NeurIPS 2023.
-          </li>
-          <li>
-            Siming Lan, Rui Zhang, Qi Yi, Jiaming Guo, Shaohui Peng, Yunkai Gao,
-            Fan Wu, Ruizhi Chen, Zidong Du, <strong>Xing Hu</strong>, Ling Li,
-            Yunji Chen, Contrastive Modules with Temporal Attention for
-            Multi-Task Reinforcement Learning, NeurIPS 2023.
-          </li>
-          <li>
-            Di Huang, Ziyuan Nan, <strong>Xing Hu</strong>, Pengwei Jin, Shaohui
-            Peng, Yuanbo Wen, Rui Zhang, Zidong Du, Qi Guo, Yewen Pu, Yunji
-            Chen, ANPL: Compiling Natural Programs with Interactive
-            Decomposition, NeurIPS 2023.
-          </li>
-          <li>
-            Jiaming Guo, Rui Zhang, Shaohui Peng, Qi Yi,
-            <strong>Xing Hu</strong>, Ruizhi Chen, Zidong Du, Ling Li, Qi Guo,
-            Yunji Chen, Efficient Symbolic Policy Learning with Differentiable
-            Symbolic Expression, NeurIPS2023.
-          </li>
-          <li>
-            Qi Yi, Rui Zhang, Shaohui Peng, Jiaming Guo, Yunkai Gao, Kaizhao
-            Yuan, Ruizhi Chen, Siming Lan, <strong>Xing Hu</strong>, Zidong Du,
-            Xishan Zhang, Qi Guo, Yunji Chen, Online prototype alignment for
-            few-shot policy transfer, ICML 2023.
-          </li>
-          <li>
-            Pengwei Jin, Di Huang, Rui Zhang, <strong>Xing Hu</strong>, Ziyuan
-            Nan, Zidong Du, Qi Guo, Yunji Chen, Online symbolic regression with
-            informative query. AAAI 2022
-          </li>
-          <li>
-            Shaohui Peng, <strong>Xing Hu</strong>, Rui Zhang, Jiaming Guo, Qi
-            Yi, Ruizhi Chen, Zidong Du, Ling Li, Qi Guo, Yunji Chen, Conceptual
-            reinforcement learning for language-conditioned tasks, AAAI 2023.
-          </li>
-          <li>
-            Jun Bi, Qi Guo, Xiaqing Li, Yongwei Zhao, Yuanbo Wen, Yuxuan Guo,
-            Enshuai Zhou, <strong>Xing Hu</strong>, Zidong Du, Ling Li, Huaping
-            Chen, Tianshi Chen, Heron: Automatically constrained
-            high-performance library generation for deep learning accelerators,
-            ASPLOS 2022.
-          </li>
-          <li>
-            Qi Yi, Rui Zhang, Shaohui Peng, Jiaming Guo,
-            <strong>Xing Hu</strong>, Zidong Du, Qi Guo, Yunji Chen,
-            Object-category aware reinforcement learning. NeurIPS2023.
-          </li>
-          <li>
-            Shaohui Peng, <strong>Xing Hu</strong>, Rui Zhang, Ke Tang, Jiaming
-            Guo, Qi Yi, Ruizhi Chen, Zidong Du, Ling Li, Qi Guo, Yunji Chen,
-            Causality-driven hierarchical structure discovery for reinforcement
-            learning, NeurIPS 2023.
-          </li>
-          <li>
-            Cambricon-P: A bitflow architecture for arbitrary precision
-            computing
-          </li>
-          <li>Babeltower: Learning to auto-parallelized program translation</li>
-          <li>
-            Ling Liang, Kaidi Xu, <strong>Xing Hu</strong>, Lei Deng, Yuan Xie,
-            Toward robust spiking neural network against adversarial
-            perturbation, NeurIPS 2022.
-          </li>
-          <li>
-            <strong>Xing Hu</strong>, Ling Liang, Xiaobing Chen, Lei Deng, Yu
-            Ji, Yufei Ding, Zidong Du, Qi Guo, Tim Sherwood, Yuan Xie, A
-            Systematic View of Model Leakage Risks in Deep Neural Network
-            Systems, IEEE Transactions on Computers (TC), 2023. (CCF-A)
-          </li>
-          <li>
-            Husheng Han, Kaidi Xu, <strong>Xing Hu</strong>#, Xiaobing Chen,
-            Ling Liang, Zidong Du, Qi Guo, Yanzhi Wang, Yunji Chen, ScaleCert:
-            Scalable Certified Defense against Adversarial Patches with Sparse
-            Superficial Layers, Advances in Neural Information Processing
-            Systems (NeurIPS), 2021. (CCF-A)
-          </li>
-          <li>
-            Xinkai Song, Tian Zhi, Zhe Fan, Zhenxing Zhang, Xi Zeng, Wei Li,
-            <strong>Xing Hu</strong>, Zidong Du, Qi Guo, Yunji Chen,
-            Cambricon-G: A Polyvalent Energy-Efficient Accelerator for Dynamic
-            Graph Neural Networks, IEEE Transactions on Computer-Aided Design of
-            Integrated Circuits and Systems (TCAD), 2021. (CCF-A)
-          </li>
-          <li>
-            Yongwei Zhao, Chang Liu, Zidong Du, Qi Guo,
-            <strong>Xing Hu</strong>, Yimin Zhuang, Zhenxing Zhang, Xinkai Song,
-            Wei Li, Xishan Zhang, Ling Li, Zhiwei Xu, Tianshi Chen, Cambricon-Q:
-            a hybrid architecture for efficient training, in International
-            Symposium on Computer Architecture (ISCA), 2021. (CCF-A)
-          </li>
-          <li>
-            Xinfeng Xie, Zheng Liang, Peng Gu, Abanti Basak, Lei Deng, Ling
-            Liang, <strong>Xing Hu</strong>, Yuan Xie, Spacea: Sparse matrix
-            vector multiplication on processing-in-memory accelerator, in IEEE
-            International Symposium on High-Performance Computer Architecture
-            (HPCA), 2021. (CCF-A)
-          </li>
-          <li>
-            Yuanbo Wen, Qi Guo, Zidong Du, Jianxing Xu, Zhenxing Zhang,
-            <strong>Xing Hu</strong>, Wei Li, Rui Zhang, Chao Wang, Zhou Xuehai,
-            Tianshi Chen, Enabling One-size-fits-all Compilation Optimization
-            across Machine Learning Computers for Inference, in IEEE
-            Transactions on Computers (TC), 2021. (CCF-A)
-          </li>
-          <li>
-            Xiaobing Chen, Yuke Wang, Xinfeng Xie, <strong>Xing Hu</strong>#,
-            Abanti Basak, Ling Liang, Mingyu Yan, Lei Deng, Yufei Ding, Zidong
-            Du, Yuan Xie, Rubik: A hierarchical architecture for efficient graph
-            neural network training, TCAD 2021.
-          </li>
-          <li>
-            <strong>Xing Hu</strong>, Ling Liang, Lei Deng, Shuangchen Li,
-            Pengfei Zuo, Xinfeng Xie, Yu Ji, Yufei Ding, Timothy Sherwood, Yuan
-            Xie, DeepSniffer, an Neural Network Model Extraction Framework by
-            Learning Architecture Hints, to appear in ACM International
-            Conference on Architectural Support for Programming Languages and
-            Operating Systems (ASPLOS), 2020. (CCF-A)
-          </li>
-          <li>
-            <strong>Xing Hu</strong>, Yang Zhao, Lei Deng, Ling Liang, Pengfei
-            Zuo, Yingyan Lin, Yuan Xie, Hardware Trojaning in Neural Network
-            Accelerator, submitted to IEEE Transactions on Computer-Aided Design
-            of Integrated Circuits and Systems (TCAD). (CCF-A)
-          </li>
-          <li>
-            <strong>Xing Hu</strong>, Matheus Ogleari, Jishen Zhao, Shuangchen
-            Li, Abanti Basak, Yuan Xie, Persistence parallelism optimization: a
-            holistic approach from memory bus to RDMA network, in IEEE/ACM
-            International Symposium on Microarchitecture (MICRO), pp 494-506,
-            2018. (CCF-A)
-          </li>
-          <li>
-            Jilan Lin, Cheng-Da Wen, <strong>Xing Hu</strong>, Tianqi Tang, Chao
-            Lin, Yu Wang, Yuan Xie, Rescuing RRAM-Based Computing From Static
-            and Dynamic Faults, IEEE Transactions on Computer-Aided Design of
-            Integrated Circuits and Systems (TCAD), 2020. (CCF-A)
-          </li>
-          <li>
-            Pengfei Zuo, Yu Hua, Ling Liang, Xinfeng Xie,
-            <strong>Xing Hu</strong>, Yuan Xie, Sealing neural network models in
-            secure deep learning accelerators, Design Automation Conference
-            (DAC), 2020. (CCF-A)
-          </li>
-          <li>
-            Mingyu Yan, Lei Deng, <strong>Xing Hu</strong>, Ling Liang, Yujing
-            Feng, Xiaochun Ye, Zhiming Zhang, Dongrui Fan, Yuan Xie, HyGCN: A
-            GCN Accelerator with Hybrid Architecture, in High Performance
-            Computer Architecture (HPCA), 2020. (CCF-A)
-          </li>
-          <li>
-            Minyu Yan, <strong>Xing Hu</strong>, Shuangchen Li, Abanti Basak,
-            Han Li, Xin Ma, Itir Akgun, Yujing Feng, Peng Gu, Lei Deng, Xiaochun
-            Ye, Zhimin Zhang, Dongrui Fan, Yuan Xie, Alleviating Irregularity in
-            Graph Analytics Acceleration: a Hardware/Software Co-Design
-            Approach, in IEEE/ACM International Symposium on Microarchitecture
-            (MICRO), 2019. (CCF-A)
-          </li>
-          <li>
-            Wenqing Huangfu, Shuangchen Li, <strong>Xing Hu</strong>, Yuan Xie,
-            RADAR: a 3D-reRAM based DNA alignment accelerator architecture, in
-            Design Automation Conference (DAC), pp. 59-64, 2018. (CCF-A)
-          </li>
-          <li>
-            Shuangchen Li, Alvin Oliver Glova, <strong>Xing Hu</strong>, Peng
-            Gu, Dimin Niu, Krishna T. Malladi, Hongzhong Zheng, Yuan Xie, SCOPE:
-            a stochastic computing engine for DRAM-based in-situ accelerator, in
-            IEEE/ACM International Symposium on Microarchitecture (MICRO), pp.
-            696-709, 2018. (CCF-A)
-          </li>
-          <li>
-            Wenqin Huangfu, Xueqi Li, Shuangchen Li, <strong>Xing Hu</strong>,
-            Peng Gu, Yuan Xie, MEDAL: Scalable DIMM based Near Data Processing
-            Accelerator for DNA Seeding Algorithm, accepted in IEEE/ACM
-            International Symposium on Microarchitecture (MICRO), 2019. (CCF-A)
-          </li>
-          <li>
-            Abanti Basak, Shuangchen Li, <strong>Xing Hu</strong>, Sang Min Oh,
-            Yuan Xie, Analysis and Optimization of the Memory Hierarchy for
-            Graph Processing Workloads, in High Performance Computer
-            Architecture (HPCA), pp 373-386, 2019. (CCF-A)
-          </li>
-          <li>
-            Yu Ji, Youyang Zhang, Xinfeng Xie, Shuangchen Li, Peiqi Wang,
-            <strong>Xing Hu</strong>, Youhui Zhang, Yuan Xie, FPSA: A Full
-            System Stack Solution for Reconfigurable ReRAM-based NN Accelerator
-            Architecture, in 24th ACM International Conference on Architectural
-            Support for Programming Languages and Operating Systems ASPLOS, pp
-            733-747, 2019. (CCF-A)
-          </li>
-          <li>
-            Kun Wu, Guohao Dai, <strong>Xing Hu</strong>, Shuangchen Li, Yu
-            Wang, Yuan Xie, Memory-bounded Proof of Work Acceleration for
-            Block-chain Applications. in Design Automation Conference (DAC),
-            2019. (CCF-A)
-          </li>
-          <li>
-            Lei Deng, Ling Liang, G. Wang, Liang Chang,
-            <strong>Xing Hu</strong>, Xin Ma, Liu Liu, Jing Pei, Guoqi Li, and
-            Y. Xie, “SemiMap: A semi-folded convolution mapping for
-            speed-overhead balance on crossbars,” in IEEE Transactions on
-            Computer-Aided Design of Integrated Circuits and Systems (TCAD),
-            2018. (CCF-A)
-          </li>
-          <li>
-            <strong>Xing Hu</strong>, Yi Xu, Jun Ma, Guoqing Chen, Yu Hu, and
-            Yuan Xie, Tsocket: Thermal-sustainable power budgeting for dynamic
-            threading, in Design Automation Conference (DAC), pp.181-187, 2014.
-            (CCF-A)
-          </li>
-        </ol>
-      </div>
-    </section>
-  </body>
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    pre {
+        page-break-inside: avoid;
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+
+</style><title></title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><p><img title="" src="avatar.jpeg" alt="avatar" width="109" data-align="inline"></p><p><strong><span>Xing Hu (胡杏)</span></strong></p><p><span>Email: </span><a href='mailto:huxing@ict.ac.cn' target='_blank' class='url'>huxing@ict.ac.cn</a><span> </span></p><h2 id='education'><span>Education</span></h2><p><strong><span>Ph.D.</span></strong><span>    State Key Lab of Computer Architecture. Institute of Computing Technology (ICT), University of Chinese Academy of Sciences (UCAS)      2009.09 - 2014.07 </span></p><p><strong><span>B.S.</span></strong><span>      Computing Science and technology Department. HuaZhong University of Science &amp; Technology (HUST)      2005.09 - 2009. 07 </span></p><h2 id='professional-experience'><span>Professional Experience</span></h2><p><strong><span>Professor</span></strong><span> Chinese Academy of Sciences, Institute of Computing Technology (ICT)  2023.09 –– Present </span></p><p><strong><span>Associate Professor</span></strong><span> Chinese Academy of Sciences, Institute of Computing Technology (ICT)  2020.04 –– 2023.09</span></p><p><strong><span>Postdoc</span></strong><span>                Department of Electrical and Computer Engineering, University of California, Santa Barbara        2017.01 –– 2020.03</span></p><p><strong><span>Research Scientist</span></strong><span>     Shannon Cognitive Lab, HUAWEI Technologies    2014. 07 –– 2016.12</span></p><h2 id='research'><span>Research</span></h2><p><span>Over the past half-century, computing systems have undergone a steady and progressive evolution, establishing themselves as the fundamental infrastructure supporting humanity in problem-solving. Nowadays, propelled by advancements in Artificial Intelligence (AI) techniques, the essence of computing has been broadened. Thus, our ultimate goal is to establish intelligent automated machines to achieve better computational efficiency, more powerful computational capabilities, and more natural interaction. Our research interests include:</span></p><ul><li><p><strong><span>Efficient and Safe Intelligent Computing Architectures</span></strong>
+<span>We explore efficient and safe architectures for intelligent computing, such as visual understanding, visual modeling, reasoning, and planning, aiming to build the physical foundation of intelligent agents to perceive, understand, and solve complex problems.</span></p></li><li><p><strong><span>Interactive Intelligent Computing System Design</span></strong>
+<span>We delve into the integration of AI capabilities to tackle critical and intricate challenges, particularly those involved in constructing computing systems. Designing computing systems poses unique challenges compared to traditional AI tasks, given the exceptional precision requirements (&gt;99.99999999999%). These requirements far exceed the levels typically associated with prediction and generation tasks in the AI domain. Our objective is to explore system design methodologies that harness the outstanding prediction/exploration capabilities of AI techniques while ensuring the functionality and correctness of the system.</span></p></li><li><p><strong><span>Instruction-following Human-machine Interaction</span></strong>
+<span>We explore the new human-machine interaction manner that eliminates effortless programming. We explore the AI agent based on program synthesis and reinforcement learning to empower the human productivity, including the natural language programming frameworks and instruction-following embodied agents.</span></p></li></ul><h2 id='publications'><span>Publications</span></h2><ul><li><p><span>Jianan Mu, Husheng Han, Shangyi Shi, Jing Ye, Zizhen Liu,Shengwen Liang, Meng Li, Mingzhe Zhang, Song Bian, Xing Hu#, Huawei Li, Xiaowei Li, Alchemist: A Unified Accelerator Architecture for Cross-Scheme Fully Homomorphic Encryption, in Design Automation Conference (DAC) 2024.</span></p></li><li><p><span>Husheng Han, Xing Hu#, Yifan Hao, Kaidi Xu, Pucheng Dang, Ying Wang, Yongwei Zhao, Zidong Du, Qi Guo, Yanzhi Wang, Xishan Zhang, Tianshi Chen, Real-Time Robust Video Object Detection System Against Physical-World Adversarial Attacks, TCAD2024.</span></p></li><li><p><span>Weihao Kong, Yifan Hao, Yongwei Zhao, Xinkai Song, Xiaqing Li, Mo Zou, Rui Zhang, Chang Liu, Yuanbo Wen, Pengwei Jin, Xing Hu, Wei Li, Zidong Du, Qi Guo, Zhiwei Xu, Tianshi Chen, DiffBoost: Full-Network Differential Acceleration for Diffusion Models, ISCA2024.</span></p></li><li><p><span>Shuyao Cheng, Pengwei Jin, Qi Guo, Zidong Du, Rui Zhang, Xing Hu, Yongwei Zhao, Yifan Hao, Guan Xiangtao, Husheng Han, Zhengyue Zhao, Ximing Liu, Xishan Zhang, yuejie Chu, Mao Long, Tianshi Chen, Yunji Chen. Automated CPU Design by Learning from Input-Output Examples, IJCAI2024.</span></p></li><li><p><span>Shuyao Cheng, Chongxiao Li, Zidong Du, Rui Zhang, Xing Hu, Xiaqing Li, Guanglin Xu, Yuanbo Wen, Qi Guo, Revisiting Automatic Pipelining: Gate-level Forwarding and Speculation, DAC2024.</span></p></li><li><p><span>Zhengyue Zhao, Jinhao Duan, Kaidi Xu, Chenan Wang, Rui Zhang, Zidong Du, Qi Guo, Xing Hu#, Can Protective Perturbation Safeguard Personal Data from Being Exploited by Stable Diffusion? CVPR, 2024</span></p></li><li><p><span>Xinkai Song, Yuanbo Wen, Xing Hu#, Tianbo Liu, Haoxuan Zhou, Husheng Han, Tian Zhi, Zidong Du, Wei Li, Rui Zhang, Chen Zhang, Lin Gao, Qi Guo, Tianshi Chen, Cambricon-R: A Fully Fused Accelerator for Real-Time Learning of Neural Scene Representation, MICRO 2023.</span></p></li><li><p><span>Shaohui Peng, </span><strong><span>Xing Hu</span></strong><span>, Qi Yi, Rui Zhang, Jiaming Guo, Di Huang, Zikang Tian, Ruizhi Chen, Zidong Du, Qi Guo, Yunji Chen, Ling Li, Hypothesis, Verification, and Induction: Grounding Large Language Models with Self-Driven Skill Learning, AAAI 2023.</span></p></li><li><p><span>Zikang Tian, Ruizhi Chen, </span><strong><span>Xing Hu</span></strong><span>, Ling Li, Rui Zhang, Fan Wu, Shaohui Peng, Jiaming Guo, Zidong Du, Qi Guo, Yunji Chen, Decompose a Task into Generalizable Subtasks in Multi-Agent Reinforcement Learning, in Advances in Neural Information Processing Systems (NeurIPS), 2023.</span></p></li><li><p><span>Yunkai Gao, Rui Zhang, Jiaming Guo, Fan Wu, Qi Yi, Shaohui Peng, Siming Lan, Ruizhi Chen, Zidong Du, Xing Hu, Qi Guo, Ling Li, Yunji Chen, Context shift reduction for offline meta-reinforcement learning, in Advances in Neural Information Processing Systems (NeurIPS), 2023.</span></p></li><li><p><span>Siming Lan, Rui Zhang, Qi Yi, Jiaming Guo, Shaohui Peng, Yunkai Gao, Fan Wu, Ruizhi Chen, Zidong Du, Xing Hu, Ling Li, Yunji Chen, Contrastive Modules with Temporal Attention for Multi-Task Reinforcement Learning, in Advances in Neural Information Processing Systems (NeurIPS), 2023.</span></p></li><li><p><span>Di Huang, Ziyuan Nan, </span><strong><span>Xing Hu</span></strong><span>, Pengwei Jin, Shaohui Peng, Yuanbo Wen, Rui Zhang, Zidong Du, Qi Guo, Yewen Pu, Yunji Chen, ANPL: Compiling Natural Programs with Interactive Decomposition, in Advances in Neural Information Processing Systems (NeurIPS), 2023.</span></p></li><li><p><span>Jiaming Guo, Rui Zhang, Shaohui Peng, Qi Yi, </span><strong><span>Xing Hu</span></strong><span>, Ruizhi Chen, Zidong Du, Ling Li, Qi Guo, Yunji Chen, Efficient Symbolic Policy Learning with Differentiable Symbolic Expression, in Advances in Neural Information Processing Systems (NeurIPS), 2023.</span></p></li><li><p><span>Qi Yi, Rui Zhang, Shaohui Peng, Jiaming Guo, Yunkai Gao, Kaizhao Yuan, Ruizhi Chen, Siming Lan, </span><strong><span>Xing Hu</span></strong><span>, Zidong Du, Xishan Zhang, Qi Guo, Yunji Chen, Online prototype alignment for few-shot policy transfer, in International Conference on Machine Learning (ICML), 2023.</span></p></li><li><p><span>Pengwei Jin, Di Huang, Rui Zhang, </span><strong><span>Xing Hu</span></strong><span>, Ziyuan Nan, Zidong Du, Qi Guo, Yunji Chen, Online symbolic regression with informative query. AAAI 2022</span></p></li><li><p><span>Shaohui Peng, </span><strong><span>Xing Hu</span></strong><span>, Rui Zhang, Jiaming Guo, Qi Yi, Ruizhi Chen, Zidong Du, Ling Li, Qi Guo, Yunji Chen, Conceptual reinforcement learning for language-conditioned tasks, in AAAI, 2023.</span></p></li><li><p><span>Jun Bi, Qi Guo, Xiaqing Li, Yongwei Zhao, Yuanbo Wen, Yuxuan Guo, Enshuai Zhou, </span><strong><span>Xing Hu</span></strong><span>, Zidong Du, Ling Li, Huaping Chen, Tianshi Chen, Heron: Automatically constrained high-performance library generation for deep learning accelerators, in ASPLOS 2022.</span></p></li><li><p><span>Qi Yi, Rui Zhang, Shaohui Peng, Jiaming Guo, </span><strong><span>Xing Hu</span></strong><span>, Zidong Du, Qi Guo, Yunji Chen, Object-category aware reinforcement learning, in Advances in Neural Information Processing Systems (NeurIPS), 2023.</span></p></li><li><p><span>Shaohui Peng, </span><strong><span>Xing Hu</span></strong><span>, Rui Zhang, Ke Tang, Jiaming Guo, Qi Yi, Ruizhi Chen, Zidong Du, Ling Li, Qi Guo, Yunji Chen, Causality-driven hierarchical structure discovery for reinforcement learning, in Advances in Neural Information Processing Systems (NeurIPS), 2023.</span></p></li><li><p><span>Yifan Hao, Yongwei Zhao, Chenxiao Liu, Zidong Du, Shuyao Cheng, Xiaqing Li, </span><strong><span>Xing Hu</span></strong><span>, Qi Guo; Zhiwei Xu; Tianshi Chen, Cambricon-P: A bitflow architecture for arbitrary precision computing, in International Symposium on Microarchitecture (MICRO), 2022. </span></p></li><li><p><span>Yuanbo Wen, Qi Guo, Qiang Fu, Xiaqing Li, Jianxing Xu, Yanlin Tang, Yongwei Zhao, </span><strong><span>Xing Hu</span></strong><span>, Zidong Du, Ling Li, Chao Wang, Xuehai Zhou, Yunji Chen, Babeltower: Learning to auto-parallelized program translation, in International Conference on Machine Learning (ICML), 2022. </span></p></li><li><p><span>Ling Liang, Kaidi Xu, </span><strong><span>Xing Hu</span></strong><span>, Lei Deng, Yuan Xie, Toward robust spiking neural network against adversarial perturbation, in Advances in Neural Information Processing Systems (NeurIPS), 2022.</span></p></li><li><p><strong><span>Xing Hu</span></strong><span>, Ling Liang, Xiaobing Chen, Lei Deng, Yu Ji, Yufei Ding, Zidong Du, Qi Guo, Tim Sherwood, Yuan Xie, A Systematic View of Model Leakage Risks in Deep Neural Network Systems, in IEEE Transactions on Computers (TC), 2023. </span></p></li><li><p><span>Husheng Han, Kaidi Xu, </span><strong><span>Xing Hu#</span></strong><span>, Xiaobing Chen, Ling Liang, Zidong Du, Qi Guo, Yanzhi Wang, Yunji Chen, ScaleCert: Scalable Certified Defense against Adversarial Patches with Sparse Superficial Layers, in Advances in Neural Information Processing Systems (NeurIPS), 2021. </span></p></li><li><p><span>Xinkai Song, Tian Zhi, Zhe Fan, Zhenxing Zhang, Xi Zeng, Wei Li, </span><strong><span>Xing Hu</span></strong><span>, Zidong Du, Qi Guo, Yunji Chen, Cambricon-G: A Polyvalent Energy-Efficient Accelerator for Dynamic Graph Neural Networks, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2021. (CCF-A)</span></p></li><li><p><span>Yongwei Zhao, Chang Liu, Zidong Du, Qi Guo, </span><strong><span>Xing Hu</span></strong><span>, Yimin Zhuang, Zhenxing Zhang, Xinkai Song, Wei Li, Xishan Zhang, Ling Li, Zhiwei Xu, Tianshi Chen, Cambricon-Q: a hybrid architecture for efficient training, in International Symposium on Computer Architecture (ISCA), 2021.</span></p></li><li><p><span>Xinfeng Xie, Zheng Liang, Peng Gu, Abanti Basak, Lei Deng, Ling Liang, </span><strong><span>Xing Hu</span></strong><span>, Yuan Xie, Spacea: Sparse matrix vector multiplication on processing-in-memory accelerator, in IEEE International Symposium on High-Performance Computer Architecture (HPCA), 2021. </span></p></li><li><p><span>Yuanbo Wen, Qi Guo, Zidong Du, Jianxing Xu, Zhenxing Zhang, </span><strong><span>Xing Hu</span></strong><span>, Wei Li, Rui Zhang, Chao Wang, Zhou Xuehai, Tianshi Chen, Enabling One-size-fits-all Compilation Optimization across Machine Learning Computers for Inference, in IEEE Transactions on Computers (TC), 2021. </span></p></li><li><p><span>Xiaobing Chen, Yuke Wang, Xinfeng Xie, </span><strong><span>Xing Hu#</span></strong><span>, Abanti Basak, Ling Liang, Mingyu Yan, Lei Deng, Yufei Ding, Zidong Du, Yuan Xie, Rubik: A hierarchical architecture for efficient graph neural network training, in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2021.</span></p></li><li><p><strong><span>Xing Hu</span></strong><span>, Ling Liang, Lei Deng, Shuangchen Li, Pengfei Zuo, Xinfeng Xie, Yu Ji, Yufei Ding, Timothy Sherwood, Yuan Xie, DeepSniffer, an Neural Network Model Extraction Framework by Learning Architecture Hints, in ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2020. </span></p></li><li><p><span>Mingyu Yan, Lei Deng, </span><strong><span>Xing Hu</span></strong><span>, Ling Liang, Yujing Feng, Xiaochun Ye, Zhiming Zhang, Dongrui Fan, Yuan Xie, HyGCN: A GCN Accelerator with Hybrid Architecture, in High Performance Computer Architecture (HPCA), 2020.</span></p></li><li><p><span>Jilan Lin, Cheng-Da Wen, </span><strong><span>Xing Hu</span></strong><span>, Tianqi Tang, Chao Lin, Yu Wang, Yuan Xie, Rescuing RRAM-Based Computing From Static and Dynamic Faults, in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2020.</span></p></li><li><p><strong><span>Xing Hu</span></strong><span>, Yang Zhao, Lei Deng, Ling Liang, Pengfei Zuo, Yingyan Lin, Yuan Xie, Hardware Trojaning in Neural Network Accelerator, to appear in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2020. </span></p></li><li><p><span>Minyu Yan, </span><strong><span>Xing Hu</span></strong><span>, Shuangchen Li, Abanti Basak, Han Li, Xin Ma, Itir Akgun, Yujing Feng, Peng Gu, Lei Deng, Xiaochun Ye, Zhimin Zhang, Dongrui Fan, Yuan Xie, Alleviating Irregularity in Graph Analytics Acceleration: a Hardware/Software Co-Design Approach, in IEEE/ACM International Symposium on Microarchitecture (MICRO), 2019.</span></p></li><li><p><span>Lei Deng, Yujie Wu, </span><strong><span>Xing Hu</span></strong><span>, Ling Liang, Yufei Ding, Guoqi Li, Guangshe Zhao, Peng Li, Yuan Xie. Rethinking the Performance Comparison between SNNs and ANNs, in Neural Networks 2019.</span></p></li><li><p><strong><span>Xing Hu</span></strong><span>, Matheus Ogleari, Jishen Zhao, Shuangchen Li, Abanti Basak, Yuan Xie, Persistence parallelism optimization: a holistic approach from memory bus to RDMA network, in IEEE/ACM International Symposium on Microarchitecture (MICRO), pp 494-506, 2018.</span></p></li><li><p><strong><span>Xing Hu</span></strong><span>, Dylan Stow, Yuan Xie, Die stack is happening, in IEEE Micro, pp. 22-28, 2018.</span></p></li><li><p><span>Wenqing Huangfu, Shuangchen Li, </span><strong><span>Xing Hu</span></strong><span>, Yuan Xie, RADAR: a 3D-reRAM based DNA alignment accelerator architecture, in Design Automation Conference (DAC), pp. 59-64, 2018. </span></p></li><li><p><span>Yang Zhao, </span><strong><span>Xing Hu</span></strong><span>, Shuangchen Li, Jing Ye, Lei Deng, Yu Ji, Jianyu Xu, Dong Wu, and Yuan Xie. Memory Trojan Attacks on Neural Network Accelerators, in Design Automation and Test in Europe (DATE), pp. 1402-1407, 2019.</span></p></li><li><p><span>Xinfeng Xie, </span><strong><span>Xing Hu</span></strong><span>, Peng Gu, Shuangchen Li, Yu Ji, Yuan Xie, NNBench-X: Benchmarking and Understanding Neural Network Workloads for Accelerator Designs, to appear in Computer Architecture Letter (CAL), pp. 38-42, 2019. </span></p></li><li><p><span>Mingyu Yan, </span><strong><span>Xing Hu</span></strong><span>, Shuangchen Li, Itir Akgun, Han Li, Xin Ma, Lei Deng, Xiaochun Ye, Zhimin Zhang, Dongrui Fan, and Yuan Xie, Balancing Memory Accesses for Energy-Efficient Graph Analytics Accelerators, to appear in ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED), 2019.</span></p></li><li><p><span>Shuangchen Li, Alvin Oliver Glova, </span><strong><span>Xing Hu</span></strong><span>, Peng Gu, Dimin Niu, Krishna T. Malladi, Hongzhong Zheng, Yuan Xie, SCOPE: a stochastic computing engine for DRAM-based in-situ accelerator, in IEEE/ACM International Symposium on Microarchitecture (MICRO), pp. 696-709, 2018. </span></p></li><li><p><span>Wenqin Huangfu, Xueqi Li, Shuangchen Li, </span><strong><span>Xing Hu</span></strong><span>, Peng Gu, Yuan Xie, MEDAL: Scalable DIMM based Near Data Processing Accelerator for DNA Seeding Algorithm, accepted in IEEE/ACM International Symposium on Microarchitecture, 2019. </span></p></li><li><p><span>Abanti Basak, </span><strong><span>Xing Hu</span></strong><span>, Shuangchen Li, Sang Min Oh, Yuan Xie, exploring core and cache hierarchy bottlenecks in graph processing workloads, in Computer Architecture Letter (CAL), pp. 197-200, 2018. </span></p></li><li><p><span>Abanti Basak, Shuangchen Li, </span><strong><span>Xing Hu</span></strong><span>, Sang Min Oh, Yuan Xie, Analysis and Optimization of the Memory Hierarchy for Graph Processing Workloads, in High Performance Computer Architecture (HPCA), pp 373-386, 2019. </span></p></li><li><p><span>Liu Liu, Lei Deng, Xing Hu, Maohua Zhu, Guoqi Li, Yufei Ding, Yuan Xie, Dynamic Sparse Graph for Efficient Deep Learning, in International Conference on Learning Representations (ICLR), 2019.  </span></p></li><li><p><span>Lin Ning, Hang Lu, </span><strong><span>Xing Hu</span></strong><span>, Xiaowei Li, When Deep Learning Meets the Edge: AutoMasking Deep Neural Networks for Efficient Machine Learning on Edge Devices, to appear in IEEE International Conference on Computer Design (ICCD), 2019.</span></p></li><li><p><span>Yu Ji, Youyang Zhang, Xinfeng Xie, Shuangchen Li, Peiqi Wang, </span><strong><span>Xing Hu</span></strong><span>, Youhui Zhang, Yuan Xie, FPSA: A Full System Stack Solution for Reconfigurable ReRAM-based NN Accelerator Architecture, in 24th ACM International Conference on Architectural Support for Programming Languages and Operating Systems ASPLOS, pp 733-747, 2019.</span></p></li><li><p><span>Jilan Lin, Shuangchen Li, </span><strong><span>Xing Hu</span></strong><span>, Lei Deng, Yuan Xie, CNNWire: Boosting Convolutional Neural Network with Winograd on ReRAM based Accelerators, in Great Lakes Symposium on VLSI (GLSVLSI), pp 283-286, 2019. </span></p></li><li><p><span>Kun Wu, Guohao Dai, </span><strong><span>Xing Hu</span></strong><span>, Shuangchen Li, Yu Wang, Yuan Xie, Memory-bounded Proof of Work Acceleration for Block-chain Applications. in Design Automation Conference (DAC), 2019. </span></p></li><li><p><span>Ling Liang, Lei Deng, Yueling Zeng, </span><strong><span>Xing Hu</span></strong><span>, Yu Ji, Xin Ma, Guoqi Li, Yuan Xie, Crossbar-aware neural network pruning, in IEEE Access 6:58324-58337, 2018. </span></p></li><li><p><span>Lei Deng, Ling Liang, G. Wang, Liang Chang, </span><strong><span>Xing Hu</span></strong><span>, Xin Ma, Liu Liu, Jing Pei, Guoqi Li, and Y. Xie, “SemiMap: A semi-folded convolution mapping for speed-overhead balance on crossbars,” in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2018. </span></p></li><li><p><span>Lei Deng, Zhe Zou, Xin Ma, Ling Liang, Guanrui Wang, </span><strong><span>Xing Hu</span></strong><span>, Liu Liu, Jing Pei, Guoqi Li, Yuan Xie, Fast Object Tracking on a Many-core Neural Network Chip, in Frontiers in Neuroscience, section Neuromorphic Engineering, 2018. </span></p></li><li><p><span>Guoqing Chen, Yi Xu, </span><strong><span>Xing Hu</span></strong><span>, Xiangyang Guo, Jun Ma, Yu Hu, Yuan Xie, TSocket: Thermal-sustainable power budgeting, in ACM Transaction on Design Automation Electrical Systems, 21(2):29, 2016. </span></p></li><li><p><strong><span>Xing Hu</span></strong><span>, Yi Xu, Jun Ma, Guoqing Chen, Yu Hu, and Yuan Xie, Tsocket: Thermal-sustainable power budgeting for dynamic threading, in Design Automation Conference (DAC), pp.181-187, 2014.</span></p></li><li><p><strong><span>Xing Hu</span></strong><span>, Guihai Yan, Yu Hu, and Xiaowei Li, Orchestrator: guarding against voltage emergencies in multi-threaded applications, in IEEE Transactions on VLSI systems, 22(12):2476-2487, 2014. </span></p></li><li><p><strong><span>Xing Hu</span></strong><span>, Yi Xu, Yu Hu, and Yuan Xie, Swimming Lane: a composite design to mitigate voltage droop effects in 3D chips, in Asia and South Pacific Design Automation Conference (ASPDAC), pp. 550-555, 2014. </span></p></li><li><p><strong><span>Xing Hu</span></strong><span>, Guihai Yan, Yu Hu, and Xiaowei Li, Orchestrator: a low-cost solution to reduce voltage emergencies for multi-threaded applications, in proceedings of Conference on Design, Automation and Test in Europe (DATE), pp. 208-213, 2013. </span></p></li><li><p><span>Songjun Pan, Yu Hu, </span><strong><span>Xing Hu</span></strong><span>, and Xiaowei Li, A cost-effective substantial-impact-filter based method to tolerate voltage emergencies, in proceedings of Conference on Design, Automation and Test in Europe (DATE), pp. 311-316, 2011.  </span></p></li></ul><h2 id='awards'><span>Awards</span></h2><ul><li><p><span>2020 - Talent </span></p></li><li><p><span>2016 - Huawei President Special Group Award</span></p></li><li><p><span>2014 - The Dean&#39;s Special Award of Chinese Academy of Sciences (TOP 1%) </span></p></li><li><p><span>2013 - Director of Special Scholarship in ICT, CAS (TOP 1%); </span></p></li></ul><h2 id='additional-professional-service'><span>Additional Professional Service</span></h2><ul><li><p><span>ISCA23, ISCA24 ERC</span></p></li><li><p><span>ICCAD20, ICCAD21, ICCAD22, ICCAD23 TPC</span></p></li><li><p><span>MICRO20 TPC</span></p></li><li><p><span>HPCA17 Submission Chair </span></p></li><li><p><span>DAC20 Session Co-chair</span></p></li><li><p><span>ICCAD20 TPC</span></p></li></ul><h2 id='reviewer-for-journals'><span>Reviewer for Journals</span></h2><p><span>TC, TCAD, TVLSI, TACO, etc.</span></p></div></div>
+</body>
 </html>
